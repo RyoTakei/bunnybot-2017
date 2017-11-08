@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" style="background-color: darkblue">
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" type="image/png" href="4488.jpg">
+    <meta charset="UTF-8">
+    <title>2898 Scouting</title>
+</head>
+<body>
+<script src="score.js"></script>
+<!--<div class="background">-->
+    <div id="wapper">
+        <div id="wapper2">
+            <div id="wapper3">
+                <form action="addInfo.php" method="post">
+                    <p>Created for BunnyBots2017</p>
+                    <p>If you don't know the rules, click <a
+                            href="rules.pdf"
+                            target="_blank">here</a> to learn more</p>
+                    <p class="apo">## Please don't use single quotation marks/apostrophes!! That'll break the system
+                        ##</p>
+                    <h1>2898 Scouting</h1>
+                    Your name: <input type="text" name="name" placeholder="Type in Your Name"><br>
+                    Match #: <input type="text" name="matchNum" placeholder="Match Number"><br>
+                    Alliance:
+                    <select name="alliance">
+                        <option value="Null">*Please select one*</option>
+                        <option value="Blue">Blue</option>
+                        <option value="Red">Red</option>
+                    </select><br>
+                    <!--Alliance: blue-> <input type="checkbox" name="balliance" placeholder="Alliance">-->
+                    <!--red-> <input type="checkbox" name="ralliance"><br>-->
+                    Team Number: <input type="text" name="team" placeholder="Team Number"><br><br>
+                    <h2>Autonomous</h2>
+                    <label>Passed Base Line? <input type="checkbox" name="baseLine" id="baseLine"><br></label>
+                    <label>Team Bucket? <input type="checkbox" name="teamBucket" id="teamBucket"><br></label>
+                    <label>Field Bucket? <input type="checkbox" name="fieldBucket" id="fieldBucket"><br><br></label>
+                    Anything you noticed? <br>
+                    <input type="text" name="autonomousInfo" placeholder="Any Notes?"><br><br>
+
+                    <h2>Teleop</h2>
+                    How Many Bunnies?
+                    <br><input type="text" name="bunnies" placeholder="Number of Bunnies" id="bunnies"
+                               value="0"><br><br>
+                    Anything you noticed? <br>
+                    <input type="text" name="teleopInfo" placeholder="Any Notes?"><br>
+
+                    <h2>After Game</h2>
+                    <a><b>Drive Team Ratings</b></a><br>
+                    <label><input type="checkbox" name="driveTeamNA" value="true"> N/A - Did not see drive
+                        team<br></label>
+                    <label><input type="checkbox" name="driveTeam1" value="true"> 1 - Driver was ineffective. Driving
+                        was
+                        jerky
+                        and/or imprecise<br></label>
+                    <label><input type="checkbox" name="driveTeam2" value="true"> 2 - Driver was average. Driving was
+                        controlled,
+                        but not excellent<<br></label>
+                    <label><input type="checkbox" name="driveTeam3" value="true"> 3 - Driver was very effective. Perfect
+                        control
+                        and
+                        precision<br></label>
+                    <br>
+
+                    <a><b>Defense</b></a><br>
+                    <label><input type="checkbox" name="defenseTeamNA" value="true"> N/A - Did not play
+                        defense<br></label>
+                    <label><input type="checkbox" name="defenseTeam1" value="true"> 1 - Defense was ineffective. Robot
+                        failed to
+                        disrupt the opposing alliance's progress<br></label>
+                    <label><input type="checkbox" name="defenseTeam2" value="true"> 2 - Defense was effective. Robot was
+                        able to
+                        disrupt the opposing alliance's progress<br></label>
+                    <label><input type="checkbox" name="defenseTeam3" value="true"> 3 - Defense was highly effective.
+                        Robot
+                        stopped
+                        the opposing alliance's progress<br><br></label>
+                    Current Rank: <input type="text" name="currentRank" placeholder="Current Rank After The Match"><br>
+                    Any Extra Info? : <input type="text" name="info" placeholder="Any Notes After The Game?"><br>
+                    <p>Click 'Score' to calculate the score. And record the score on the box below</p>
+                    Score: <input type="text" name="finalScore">
+                    <button type="button" onclick="onClick()">Score</button>
+                    <br><input type="submit">
+                    <br><br><br><br>
+                    <p class="smallText">Created by Ryo Takei</p>
+                </form>
+            </div>
+        </div>
+    </div>
+<!--</div>-->
+</body>
+</html>
