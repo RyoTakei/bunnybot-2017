@@ -1,7 +1,7 @@
 <html>
 <head>
     <title>View Data</title>
-    <link rel="icon" href="4488.jpg">
+    <link rel="icon" href="bunny.jpeg">
     <link rel="stylesheet" href="style2.css">
 </head>
 <?php

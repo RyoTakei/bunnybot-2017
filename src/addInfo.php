@@ -1,7 +1,7 @@
 <html style="background-color: darkblue">
 <head>
     <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="icon" href="4488.jpg">
+    <link rel="icon" href="bunny.jpeg">
     <title>2898 Scouting</title>
 </head>
 <body>
