@@ -88,7 +88,7 @@ input:checked + .slider:before {
 
 @font-face {
     font-family: Agency;
-    src: url('Agency_FB.ttf');
+    src: url('res/Agency_FB.ttf');
 }
 
 html {

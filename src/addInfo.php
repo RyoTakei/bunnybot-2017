@@ -1,7 +1,7 @@
 <html style="background-color: darkblue">
 <head>
     <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="icon" href="bunny.jpeg">
+    <link rel="icon" href="res/bunny.jpeg">
     <title>2898 Scouting</title>
 </head>
 <body>
@@ -165,7 +165,7 @@ field_bucket,autonomous_info, bunnies, teleop_info, drive_team, defense, extra_i
                     . "<br></b>And extra info about autonomous: <b>" . $autonomous_info
                     . "<br><br></b>In teleop period....."
                     . "<br>They got <b>" . $bunnies . "</b> bunnies"
-                    . "<br>And Extra info about their teleop: <b>" . $teleop_info
+                    . "<br>And extra info about their teleop: <b>" . $teleop_info
                     . "<br><br></b>After the match...."
                     . "<br>You gave<b> " . $drive_team_rating . "</b> to their drive team"
                     . "<br>And you gave<b> " . $defense_rating . "</b> to their defense"

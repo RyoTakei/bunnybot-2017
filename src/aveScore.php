@@ -1,7 +1,8 @@
-<html>
+<html lang='en'>
 <head>
     <title>View Data</title>
-    <link rel="icon" href="bunny.jpeg">
+    <link rel="icon" href="res/bunny.jpeg">
+    <link rel='stylesheet' type='text/css' href='style.css'>
 </head>
 
 <style>
@@ -10,6 +11,7 @@
         text-align: center;
     }
 </style>
+
 <?php
 /**
  * Created by IntelliJ IDEA.
@@ -19,7 +21,7 @@
  */
 
 $command = 'python3.6 /opt/lampp/htdocs/scouting/ave.py';
-exec('./ave.sh', $out, $status);
+exec('. python/ave.sh', $out, $status);
 //exec(dirname(__FILE__) . 'ave.sh', $out, $status);
 if (0 === $status) {
     echo "<p>DONE</p>";
@@ -36,5 +38,4 @@ if ($file = fopen("/tmp/ave.text", "r")) {
 }
 
 ?>
-
 </html>
