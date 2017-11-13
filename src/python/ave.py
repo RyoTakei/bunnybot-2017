@@ -54,7 +54,7 @@ def find_ave(score_list):
     total = 0
     for i in range(1, len(score_list)):
         total += score_list[i]
-    return total / (len(score_list) - 1)
+    return round(total / (len(score_list) - 1), 2)
     # return int("{0:.2f}".format(total / len(score_list) - 1))
 
 
